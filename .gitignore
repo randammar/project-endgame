@@ -1,28 +1,67 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
+# Filename: .gitignore
+# Date:     3/8/2016
+# Aurhor:   Randa Ammar
+#
+# Description: 
+# The file tells git what files to ignore during add and commit
+# operations. This has been optimized for development using 
+# Microsoft Visual Studio 2010.
+#
+ 
+#
+# Windows and Mac OS X Temp Cache Files
+#
+[Tt]humbs.db
+*.DS_Store
+ 
+#
+#Visual Studio files
+#
+*.[Oo]bj
+*.user
+*.aps
 *.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
 *.lib
-
-# Executables
-*.exe
-*.out
-*.app
+*.sbr
+*.sdf
+ipch/
+obj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+ 
+#
+#Tooling
+#
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+ 
+#
+#Project files
+#
+[Bb]uild/
+ 
+#
+#Subversion files
+#
+.svn
+ 
+#
+# Microsoft Office Temp Files
+#
+~$*
+ 
+# End of File
